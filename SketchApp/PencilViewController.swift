@@ -16,6 +16,7 @@ class PencilViewController: UIViewController {
         let canvas = PKCanvasView(frame: view.frame)
         view.addSubview(canvas)
         canvas.tool = PKInkingTool(.pen, color: .black, width: 30)
+        canvas.drawingPolicy = .anyInput
 
         if let _ = UIApplication.shared.windows.first {
             let toolPicker = PKToolPicker()
