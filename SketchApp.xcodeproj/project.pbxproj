@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		5B39C2E527B7C8D30025A4A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B39C2E427B7C8D30025A4A4 /* AppDelegate.swift */; };
-		5B39C2E727B7C8D30025A4A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B39C2E627B7C8D30025A4A4 /* SceneDelegate.swift */; };
-		5B39C2E927B7C8D30025A4A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B39C2E827B7C8D30025A4A4 /* ViewController.swift */; };
-		5B39C2EC27B7C8D30025A4A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B39C2EA27B7C8D30025A4A4 /* Main.storyboard */; };
+		5B39C2E927B7C8D30025A4A4 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B39C2E827B7C8D30025A4A4 /* DrawViewController.swift */; };
 		5B39C2EE27B7C8D50025A4A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B39C2ED27B7C8D50025A4A4 /* Assets.xcassets */; };
 		5B39C2F127B7C8D50025A4A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B39C2EF27B7C8D50025A4A4 /* LaunchScreen.storyboard */; };
+		5B39C2F927B7C9100025A4A4 /* PencilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B39C2F827B7C9100025A4A4 /* PencilViewController.swift */; };
+		5B39C2FB27B7C93A0025A4A4 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B39C2FA27B7C93A0025A4A4 /* TabBarViewController.swift */; };
+		5B39C2FD27B7CD420025A4A4 /* Sketch+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B39C2FC27B7CD420025A4A4 /* Sketch+UIView.swift */; };
+		5B39C2FF27B7CDD50025A4A4 /* Sketch+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B39C2FE27B7CDD50025A4A4 /* Sketch+UIImageView.swift */; };
+		5B39C30127B7CE270025A4A4 /* ImageDrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B39C30027B7CE270025A4A4 /* ImageDrawViewController.swift */; };
+		5BF2DDC127B7E26600958460 /* PDFAnnotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BF2DDC027B7E26600958460 /* PDFAnnotationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5B39C2E127B7C8D30025A4A4 /* SketchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SketchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B39C2E427B7C8D30025A4A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B39C2E627B7C8D30025A4A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5B39C2E827B7C8D30025A4A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5B39C2EB27B7C8D30025A4A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B39C2E827B7C8D30025A4A4 /* DrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
 		5B39C2ED27B7C8D50025A4A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B39C2F027B7C8D50025A4A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B39C2F227B7C8D50025A4A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B39C2F827B7C9100025A4A4 /* PencilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilViewController.swift; sourceTree = "<group>"; };
+		5B39C2FA27B7C93A0025A4A4 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		5B39C2FC27B7CD420025A4A4 /* Sketch+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sketch+UIView.swift"; sourceTree = "<group>"; };
+		5B39C2FE27B7CDD50025A4A4 /* Sketch+UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sketch+UIImageView.swift"; sourceTree = "<group>"; };
+		5B39C30027B7CE270025A4A4 /* ImageDrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDrawViewController.swift; sourceTree = "<group>"; };
+		5BF2DDC027B7E26600958460 /* PDFAnnotationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFAnnotationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +65,13 @@
 			isa = PBXGroup;
 			children = (
 				5B39C2E427B7C8D30025A4A4 /* AppDelegate.swift */,
-				5B39C2E627B7C8D30025A4A4 /* SceneDelegate.swift */,
-				5B39C2E827B7C8D30025A4A4 /* ViewController.swift */,
-				5B39C2EA27B7C8D30025A4A4 /* Main.storyboard */,
+				5B39C2E827B7C8D30025A4A4 /* DrawViewController.swift */,
+				5B39C30027B7CE270025A4A4 /* ImageDrawViewController.swift */,
+				5B39C2F827B7C9100025A4A4 /* PencilViewController.swift */,
+				5BF2DDC027B7E26600958460 /* PDFAnnotationViewController.swift */,
+				5B39C2FA27B7C93A0025A4A4 /* TabBarViewController.swift */,
+				5B39C2FC27B7CD420025A4A4 /* Sketch+UIView.swift */,
+				5B39C2FE27B7CDD50025A4A4 /* Sketch+UIImageView.swift */,
 				5B39C2ED27B7C8D50025A4A4 /* Assets.xcassets */,
 				5B39C2EF27B7C8D50025A4A4 /* LaunchScreen.storyboard */,
 				5B39C2F227B7C8D50025A4A4 /* Info.plist */,
@@ -127,7 +139,6 @@
 			files = (
 				5B39C2F127B7C8D50025A4A4 /* LaunchScreen.storyboard in Resources */,
 				5B39C2EE27B7C8D50025A4A4 /* Assets.xcassets in Resources */,
-				5B39C2EC27B7C8D30025A4A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +149,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B39C2E927B7C8D30025A4A4 /* ViewController.swift in Sources */,
+				5BF2DDC127B7E26600958460 /* PDFAnnotationViewController.swift in Sources */,
+				5B39C2E927B7C8D30025A4A4 /* DrawViewController.swift in Sources */,
 				5B39C2E527B7C8D30025A4A4 /* AppDelegate.swift in Sources */,
-				5B39C2E727B7C8D30025A4A4 /* SceneDelegate.swift in Sources */,
+				5B39C30127B7CE270025A4A4 /* ImageDrawViewController.swift in Sources */,
+				5B39C2FF27B7CDD50025A4A4 /* Sketch+UIImageView.swift in Sources */,
+				5B39C2FB27B7C93A0025A4A4 /* TabBarViewController.swift in Sources */,
+				5B39C2FD27B7CD420025A4A4 /* Sketch+UIView.swift in Sources */,
+				5B39C2F927B7C9100025A4A4 /* PencilViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5B39C2EA27B7C8D30025A4A4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5B39C2EB27B7C8D30025A4A4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5B39C2EF27B7C8D50025A4A4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,14 +302,14 @@
 				INFOPLIST_FILE = SketchApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iichirokawashima.SketchApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -322,14 +330,14 @@
 				INFOPLIST_FILE = SketchApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iichirokawashima.SketchApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
