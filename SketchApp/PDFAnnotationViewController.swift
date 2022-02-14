@@ -47,12 +47,19 @@ class PDFAnnotationViewController: UIViewController, PDFViewDelegate {
         //let highLightItem = UIMenuItem(title:"Highlight"), action: #selector(highlightFromMenuItem))
 
 
-        let button = UIButton()
-        button.frame = CGRect(x: 0, y: 20, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height / 8)
-        button.setTitle("Add annotate", for: .normal)
-        button.backgroundColor = UIColor.black
-        button.addTarget(self, action: #selector(addAnnotate), for: .touchUpInside)
-        self.view.addSubview(button)
+        let annotateButton = UIButton()
+        annotateButton.frame = CGRect(x: 0, y: 20, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height / 8)
+        annotateButton.setTitle("Add annotate", for: .normal)
+        annotateButton.backgroundColor = UIColor.black
+        annotateButton.addTarget(self, action: #selector(addAnnotate), for: .touchUpInside)
+        self.view.addSubview(annotateButton)
+
+        let shareButton = UIButton()
+        shareButton.frame = CGRect(x: 0, y: 100, width: UIScreen.main.bounds.size.width, height: 40)
+        shareButton.setTitle("Share", for: .normal)
+        shareButton.backgroundColor = UIColor.black
+        shareButton.addTarget(self, action: #selector(shareButtonTapped), for: .touchUpInside)
+        self.view.addSubview(shareButton)
 
         self.setupNotification()
     }
@@ -94,5 +101,14 @@ class PDFAnnotationViewController: UIViewController, PDFViewDelegate {
         }
 
         annotation.contents = "TAPPED"
+    }
+
+    @objc private func shareButtonTapped() {
+        guard let url = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first else { return }
+        let path = url.appendingPathComponent("output.pdf")
+        pdfDocument.write(to: path)
+
+        let activityViewController = UIActivityViewController(activityItems: [path] , applicationActivities: nil)
+        present(activityViewController, animated: true)
     }
 }
