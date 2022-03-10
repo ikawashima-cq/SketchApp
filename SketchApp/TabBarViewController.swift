@@ -33,6 +33,9 @@ class TabBarViewController: UITabBarController {
         let pdfScreen = PDFAnnotationViewController()
         pdfScreen.tabBarItem = UITabBarItem(title: "PDF Annotation", image: .none, tag: 3)
 
-        self.viewControllers = [drawScreen, imageDrawScreen, pencilScreen, pdfScreen]
+        let arScreen = ARViewController()
+        arScreen.tabBarItem = UITabBarItem(title: "AR", image: .none, tag: 4)
+
+        self.viewControllers = [drawScreen, imageDrawScreen, pencilScreen, pdfScreen, arScreen]
     }
 }
