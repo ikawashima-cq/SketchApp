@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>MBXAccessToken</key>
+	<string>pk.eyJ1Ijoia2F3YXNoaW1hLWNxIiwiYSI6ImNsMGJ2b3g0MTBtZXgzYm1oZGF5dnhrcTQifQ.ODTKY4CDzvZoXQPtFkkJqw</string>
 	<key>NSCameraUsageDescription</key>
 	<string>ARを体験するために、カメラを使用します。</string>
 	<key>UIApplicationSceneManifest</key>
